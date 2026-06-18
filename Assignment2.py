@@ -51,3 +51,48 @@ print("14. isspace():", text.isspace())             # True if string contains on
 # 5. Modification Methods
 print("15. replace(' ', '-'):", text.replace(' ', '-')) # Replaces all spaces with dashes
 
+
+
+
+
+
+
+# Initial value
+x = 10
+print(f"Initial x = {x}\n")
+
+# 1. Simple Assignment (=)
+x = 10 
+print("=  Operator (Assigns 10):", x)
+
+# 2. Add and Assign (+=)
+x += 5  # Equivalent to: x = x + 5
+print("+= Operator (Adds 5):    ", x)
+
+# 3. Subtract and Assign (-=)
+x -= 3  # Equivalent to: x = x - 3
+print("-= Operator (Subtracts 3):", x)
+
+# 4. Multiply and Assign (*=)
+x *= 2  # Equivalent to: x = x * 2
+print("*= Operator (Multiplies by 2):", x)
+
+# 5. Divide and Assign (/=)
+x /= 4  # Equivalent to: x = x / 4 (results in a float)
+print("/= Operator (Divides by 4):   ", x)
+
+# 6. Modulus and Assign (%=)
+x = 17
+x %= 5  # Equivalent to: x = x % 5 (finds the remainder)
+print("%= Operator (Remainder of 17/5):", x)
+
+# 7. Floor Division and Assign (//=)
+x = 17
+x //= 5  # Equivalent to: x = x // 5 (divides and rounds down to nearest integer)
+print("//= Operator (Floor division of 17/5):", x)
+
+# 8. Exponent and Assign (**=)
+x = 3
+x **= 3  # Equivalent to: x = x ** 3 (3 raised to the power of 3)
+print("**= Operator (3 cubed):", x)
+
